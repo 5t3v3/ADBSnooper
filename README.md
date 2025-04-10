@@ -17,9 +17,11 @@ Ensure you have the following before running ADBSnooper:
 - **ADB (Android Debug Bridge)** installed on your system.
 - A **rooted Android device** or an emulator with root access.
 - USB Debugging enabled on the Android device.
-- Python 3 installed with the required dependencies:
+- Python3 installed with the required dependencies:
 ```sh
-pip install tqdm colorama
+colorama>=0.4.3
+tqdm>=4.0.0
+reportlab>=3.5.0
 ```
 ## Installation
 
