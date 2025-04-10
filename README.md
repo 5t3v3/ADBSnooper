@@ -28,6 +28,7 @@ Clone this repository and navigate to the directory:
 ```sh
 git clone https://github.com/5t3v3/ADBSnooper.git
 cd ADBSnooper
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -35,7 +36,7 @@ cd ADBSnooper
 Run the script and provide the package name of the app you want to scan:
 
 ```sh
-python adbsnooper.py
+python3 adbsnooper.py
 ```
 
 You will be prompted to enter:
